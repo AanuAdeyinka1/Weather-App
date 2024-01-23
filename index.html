@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link src="https//jsonplaceholder.typicode.com/users">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container top">
+            <h1>Weather App</h1>
+            <form action="" onsubmit="getInput()">
+                <input type="text" class="search" placeholder="Search by city name">
+                <button type="submit" class="btn">Submit</button>
+                <p class="error"></p>
+            </form>
+            <section>
+                <div class="container">
+                    <div class="icon">
+                        <img src="" alt="" class="weather-icon">
+                    </div>
+                    <div class="location">
+                        <div class="city">New York, US</div>
+                        <div class="date">Thursday, Dec 26 2020</div>
+                    </div>
+                    <div class="current">
+                        <div class="temp">Temp: 25 <span>°C</span></div>
+                        <div class="weather">Weather: Sunny</div>
+                        <div class="temp-range">Temp Range: 10°C / 15°C</div>
+                    </div>
+                </div>
+            </section>
+            <div class="copyright">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM199.4 312.6c-31.2-31.2-31.2-81.9 0-113.1s81.9-31.2 113.1 0c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9c-50-50-131-50-181 0s-50 131 0 181s131 50 181 0c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0c-31.2 31.2-81.9 31.2-113.1 0z"/></svg> 
+                    <span>Aanu Adeyinka 2024</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
