@@ -31,7 +31,7 @@ body {
     height: 80vh;
     /* background-color: #b05102; */
     
-    background: linear-gradient(to right bottom, #42ea2c, #120078);
+    background: linear-gradient(to right bottom, #b1129c, #120078);
     /* background: url(./images/weather.png) no-repeat center; */
     background-size: cover;
     border-radius: 10px;
@@ -80,7 +80,7 @@ body {
 }
 
 .top input {
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(243, 8, 157, 0.5);
     border-bottom: solid 2px rgb(0, 70, 128);
     border-radius: 10px 0 10px 0;
     text-align: center;
@@ -98,7 +98,7 @@ body {
 }
 
 .top button {
-    background-color: #db6400;
+    background-color: #e478c0;
     color: white;
     font-size: 14px;
     font-weight: bold;
@@ -162,7 +162,7 @@ body {
  svg{
     height: 20px;
     fill: gray;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: -5px;
 }
 .copyright span{
